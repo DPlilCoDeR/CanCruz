@@ -1,0 +1,52 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+main{
+    background-color: transparent
+}
+.bg-image {
+    min-height: 500px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}  
+.img1 { background-image: url("/Users/doble_papi/Documents/CanCruz/src/img_4284_lowres.jpg");  }
+.img2 { background-image: url("/Users/doble_papi/Documents/CanCruz/src/img_20160913_115139.jpg"); }
+.img3 { background-image: url("/Users/doble_papi/Documents/CanCruz/src/img_20170723_202707.jpg"); }
+.img4 { background-image: url("/Users/doble_papi/Documents/CanCruz/src/img_20180207_224224.jpg"); }
+.img5 { background-image: url("/Users/doble_papi/Documents/CanCruz/src/img_20180213_095212.jpg")  }
+.img6 { background-color: chocolate; }
+
+.container-fluid{
+    max-height:100px;
+    min-height: 500px;
+    background-color:gray;
+}
+.contenido{
+    background-color: red;
+    max-height:100%;
+    min-height: 500px;
+    width: 80%;
+    margin: auto;
+}
+.titulo{
+    color: white;
+    text-align: center;
+    position: relative;
+    width: 50%;
+    margin: auto;
+    padding: 5%;
+    text-shadow: 2px 2px black;
+}
+.categorias{
+    float: left;
+    position: relative;
+    background-color: black;
+    width: 10%;
+    height: 10%;
+    padding: 8%;
+    margin: 8%;
+}
+
